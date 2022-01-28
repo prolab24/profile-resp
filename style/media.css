@@ -1,0 +1,88 @@
+@media(max-width:728px){
+    .profile{
+        flex-basis: 50%;
+    }
+        .profile img{
+            margin-top: 30px;
+            margin-bottom: 15px;
+        
+    }
+}
+
+@media(max-width:600px){
+    @media(min-width:428px){
+    
+    .profile{
+        flex-basis: 80%;
+    }
+    .profile img{
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .intro h1{
+        font-size: 28px;
+    }
+    .intro h3{
+        font-size: 18px;
+    }
+    .desc-center{
+        flex-basis: 70%;
+    }
+    .desc-center p{
+        font-size: 16px;
+        margin-top: 14px;
+        padding-bottom: 20px;
+    }
+    .rd{
+        height: 8px;
+    }
+    .fb .fab{
+        padding: 5px 8px;
+    }
+    .tw .fab{
+        font-size: 15px;
+    }
+    
+    .git .fab{
+        font-size: 24px;
+    }
+}
+}
+@media(max-width:420px){
+@media(min-width:129px){
+    .profile{
+        flex-basis: 95%;
+    }
+    .profile img{
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .intro h1{
+        font-size: 25px;
+    }
+    .intro h3{
+        font-size: 16px;
+    }
+    .desc-center{
+        flex-basis: 70%;
+    }
+    .desc-center p{
+        font-size: 15px;
+        margin-top: 14px;
+        padding-bottom: 20px;
+    }
+    .rd{
+        height: 8px;
+    }
+    .fb .fab{
+        padding: 5px 8px;
+    }
+    .tw .fab{
+        font-size: 15px;
+    }
+    
+    .git .fab{
+        font-size: 24px;
+    }
+}
+}
